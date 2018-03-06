@@ -20,22 +20,22 @@ public:
 	void setHeight(double);
 
 	// TODO: Provide the prototype to overload the addition operator here.
-	BoxType operator+(const BoxType&);
+	BoxType operator+(const BoxType&) const;
 	// TODO: Provide the prototype to overload the subtraction operator here.
-	BoxType operator-();
+	BoxType operator-(const BoxType&) const;
 	// TODO: Provide the prototype to overload the multiplication operator here.
-	BoxType operator*();
+	BoxType operator*(const BoxType&) const;
 	// TODO: Provide the prototype to overload the division operator here.
-	BoxType operator/(const BoxType&);
+	BoxType operator/(const BoxType&) const;
 
 	// TODO: Provide the prototype to overload the greater than operator here.
-	bool operator>(const BoxType&);
+	bool operator>(const BoxType&) const;
 	// TODO: Provide the prototype to overload the less than operator here.
-	bool operator<(const BoxType&);
+	bool operator<(const BoxType&) const;
 	// TODO: Provide the prototype to overload the equality operator here.
-	bool operator==(const BoxType&);
+	bool operator==(const BoxType&) const;
 	// TODO: Provide the prototype to overload the not-equal-to operator here.
-	bool operator!=(const BoxType&);
+	bool operator!=(const BoxType&) const;
 
 	// TODO: Provide the prototype to overload the pre-increment operator here.
 	BoxType operator++();

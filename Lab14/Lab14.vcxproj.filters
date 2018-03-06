@@ -18,10 +18,10 @@
     <ClCompile Include="question01.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="question02.cpp">
+    <ClCompile Include="BoxType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BoxType.cpp">
+    <ClCompile Include="question02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
