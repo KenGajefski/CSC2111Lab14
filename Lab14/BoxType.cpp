@@ -180,8 +180,8 @@ istream& operator>>(istream &obj, BoxType& param) {
 }
 
 // TODO: Implement the stream extraction operator overload here.
-ostream& operator<<(ostream& obj, BoxType& param) {
-	obj << param << " ";
+ostream& operator<<(ostream& obj, const BoxType& param) {
+	obj << param.length << " " << param.width << " " << param.height << endl;
 
 	return obj;
 }
